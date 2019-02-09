@@ -12,3 +12,24 @@ function draw() {
     noStroke()
     ellipse(h, s, 20);
 }
+
+
+
+
+
+2. version
+
+function setup() {
+  createCanvas(400, 400);
+	
+}
+
+function draw() {
+  background(220);
+
+  let hi = random(width);
+  let bye = random(height);
+  fill(hi, bye, 100);
+  noStroke()
+  ellipse(hi, bye, 20);
+}
